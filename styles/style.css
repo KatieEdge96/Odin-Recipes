@@ -1,14 +1,14 @@
 body {
-    background: linear-gradient(to bottom right, #ccffff 0%, #ccffcc 100%);
+    background-image: url(../images/food.png);
     color: #80b3ff;
     height: 100%;
 }
 
 .recipes {
-    color: darkorchid;
-    font-size: 76px;
+    color: rgb(207, 123, 243);
+    font-size: 68px;
     font-family: inherit;
-    background: #ffffcc;
+    background-image: url(//images/food.png);
     width: 300px;
 
     margin: 50px;
