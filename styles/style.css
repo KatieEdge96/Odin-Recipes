@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to bottom right, #ccffff 0%, #ccffcc 100%);
+    color: #80b3ff;
+    height: 100%;
+}
+
+.recipes {
+    color: darkorchid;
+    font-size: 76px;
+    font-family: inherit;
+    background: #ffffcc;
+    width: 300px;
+
+    margin: 50px;
+    margin-left: 500px;
+    border-width: 2px;
+    border-color: coral;
+    border-style: dotted;
+    
+
+    
+}
+
+.link {
+    color: darkgoldenrod;
+    font-size: 28px;
+}
+
+.ingredients {
+    color: rgb(45, 54, 45);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.method {
+    color: dimgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.food {
+    background-color: rgb(221, 215, 215);
+    color: dodgerblue;
+    font-size: 38px;
+}
+.rbox1 {
+    background: ;
+}
