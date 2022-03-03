@@ -1,7 +1,9 @@
 body {
     background-image: url(../images/food.png);
-    color: #80b3ff;
+    color: #124ba1;
     height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
 }
 
 .recipes {
@@ -16,32 +18,57 @@ body {
     border-width: 2px;
     border-color: coral;
     border-style: dotted;
+
+    font-style: italic;
+    line-height: 1;
     
 
     
 }
 
-.link {
-    color: darkgoldenrod;
-    font-size: 28px;
+a:link {
+    color: black;
+    font-size: 35px;
+}
+
+a:visited {
+    color: #33adff;
+}
+
+a:hover {
+    color: rgb(207, 123, 243);
 }
 
 .ingredients {
     color: rgb(45, 54, 45);
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 400px;
+
+    border-style: dotted;
+    
+    line-height: 1.4;
+    font-style: italic;
+    font-weight: lighter;
 
 }
 
 .method {
-    color: dimgray;
+    color: rgb(45, 54, 45);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 700px;
+
+    border-style: dotted;
+
+    line-height: 1.4;
+    font-weight: lighter;
 }
 
 .food {
-    background-color: rgb(221, 215, 215);
-    color: dodgerblue;
+    color: rgb(39, 49, 65);
     font-size: 38px;
+
+    margin-left: 300px;
 }
 .rbox1 {
     background: ;
