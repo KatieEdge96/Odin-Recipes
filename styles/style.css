@@ -8,13 +8,13 @@ body {
 
 .recipes {
     color: rgb(207, 123, 243);
-    font-size: 68px;
+    font-size: 89px;
     font-family: inherit;
     background-image: url(//images/food.png);
-    width: 300px;
+    width: 350px;
 
     margin: 50px;
-    margin-left: 500px;
+    margin-left: 100px;
     border-width: 2px;
     border-color: coral;
     border-style: dotted;
@@ -29,6 +29,7 @@ body {
 a:link {
     color: black;
     font-size: 35px;
+    text-decoration: none;
 }
 
 a:visited {
@@ -37,6 +38,11 @@ a:visited {
 
 a:hover {
     color: rgb(207, 123, 243);
+}
+
+.ingredientsText {
+    color: aqua;
+
 }
 
 .ingredients {
@@ -66,10 +72,76 @@ a:hover {
 
 .food {
     color: rgb(39, 49, 65);
-    font-size: 38px;
+    font-size: 28px;
 
-    margin-left: 300px;
+    margin-left: 0px;
+    margin-bottom: 0px;
 }
-.rbox1 {
-    background: ;
+
+.centerGIF {
+    d
+
+}
+
+.container {
+    background-image: url(../images/food.png);
+    padding: 16px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+}
+
+.rbox {
+    display: block;
+    width: 500px;
+    
+}
+
+.menu-col {
+    padding: 0;
+    margin: 0;
+    border: 0 none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.empty {
+    height: 400px;
+
+}
+
+.home {
+    border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container-recipe {
+    background-image: url(../images/food.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 400px;
+    padding-right: 400px;
+
+}
+
+.flexbox-ingredients1 {
+    height: 400px;
+    
+}
+
+.flexbox-empty {
+    padding-top: 150px;
+    
+}
+
+.flexbox-recipe1 {
+    height: 400px;
+
 }
